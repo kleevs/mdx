@@ -1,0 +1,16 @@
+{
+  "name": "@plugins/replacer",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "remark-directive": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
+}

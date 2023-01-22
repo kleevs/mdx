@@ -1,0 +1,13 @@
+.theme-admonition {
+    --adm-bg-color: #e6f6e6;
+    --adm-border-left-width: 5px;
+    --adm-border-radius: 0.4rem;
+    --ifm-alert-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+    background-color: var(--adm-bg-color);
+    border: 0 solid var(--ifm-alert-border-color);
+    border-left-width: var(--adm-border-left-width);
+    border-radius: var(--adm-border-radius);
+    box-shadow: var(--ifm-alert-shadow);
+    padding: 1rem;
+}

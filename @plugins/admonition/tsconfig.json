@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "watch": false,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "target": "es6",
+    "jsx": "react",
+    "lib": [
+      "es2016"
+    ]
+  },
+  "exclude" : [
+    "./node_modules",
+    "../../node_modules",
+    "./dist"
+  ],
+  "include": [
+    "src"
+  ]
+}

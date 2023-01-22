@@ -1,0 +1,20 @@
+{
+  "name": "mdx",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "private": true,
+  "workspaces": [
+    "packages/**",
+    "@plugins/**",
+    "@tools/**"
+  ]
+}
